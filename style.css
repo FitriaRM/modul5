@@ -1,0 +1,58 @@
+.container {
+	width: 1200px;	
+	margin: auto;
+}
+
+.logo img	{
+	width: 60px;
+}
+
+.header {
+	width: 1200px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	background-color: #F4F3F2;
+}
+
+.header .logo {
+	margin: 0;
+}
+
+.header .logotitle h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+	font-family: consolas, sans-serif;
+}
+
+.header .menu ul {
+	margin: auto;
+	padding: 15px;
+	background-color: #AFAFAF;
+}
+
+.menu ul li {
+	display: inline;
+	margin: 5px;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #414141;
+	font-size: 18px;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.sidebar {
+	width: 200px;
+	background-color: #F4F3F2;
+	float: right;
+	padding: 200px;
+
+}
